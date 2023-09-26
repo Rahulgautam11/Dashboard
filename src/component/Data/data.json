@@ -1,0 +1,65 @@
+[
+    {
+        "name": "computer",
+        "price": "130",
+        "category": "computers",
+        "description": "",
+        "image": "/Image/computer.jpg"
+    },
+    {
+        "name": "sweater",
+        "price": "100",
+        "category": "Clothing",
+        "description": "fashion, clothes , sweater, wool, cardigan,…",
+        "image": "/Image/sweater.jpg"
+    },
+    {
+        "name": "tie",
+        "price": "40",
+        "category": "Clothing",
+        "description": "fashion, tie, clothes, accessory , accessoire,…",
+        "image": "/Image/tie.jpg"
+    },
+    {
+        "name": "jacket",
+        "price": "190",
+        "category": "Clothing",
+        "description": "winter jacket ",
+        "image": "/Image/jocket.jpg"
+    },
+    {
+        "name": "macbook",
+        "price": "19",
+        "category": "Clothing",
+        "description": "winter jacket ",
+        "image": "/Image/mac.jpg"
+    },
+    {
+        "name": "iphone",
+        "price": "90",
+        "category": "Clothing",
+        "description": "winter jacket ",
+        "image": "/Image/iphone.jpg"
+    },
+    {
+        "name": "iwatch",
+        "price": "10",
+        "category": "Clothing",
+        "description": "winter jacket ",
+        "image": "/Image/iwatch.jpg"
+    },
+    {
+        "name": "shoes",
+        "price": "11",
+        "category": "Clothing",
+        "description": "winter jacket ",
+        "image": "/Image/shoes.jpg"
+    },
+    {
+        "name": "bag",
+        "price": "10",
+        "category": "Clothing",
+        "description": "winter jacket ",
+        "image": "/Image/bag.jpg"
+    }
+]
