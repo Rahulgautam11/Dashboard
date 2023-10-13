@@ -1,10 +1,14 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Style.scss'
 import ProductList from './ProductList'
 import Data from '../Data/data.json';
 
 
+
+
+
 const Dashboard = () => {
+
     const [product, setProduct] = useState()
     const handleProduct = (value) => {
         setProduct(value)
@@ -33,7 +37,6 @@ const Dashboard = () => {
                             return (
 
                                 <figure className="img_wrap" key={key} onClick={() => handleProduct(item)}>
-                                    {console.log(item.image)}
                                     <img src={item.image} alt="image" />
                                     <div className="overlay">
                                         <figcaption className="product_name" >{item.name}</figcaption>

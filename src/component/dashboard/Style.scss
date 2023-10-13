@@ -449,7 +449,7 @@
 
                 &:hover {
                     .overlay {
-                        position: absolute;
+                        visibility: visible;
                         height: 100%;
                         transition: all 0.2s;
                     }
@@ -458,7 +458,9 @@
 
 
                 .overlay {
+                    visibility: hidden;
                     transition: all 0.2s;
+                    position: absolute;
                     top: 0;
                     bottom: 0;
                     left: 0;

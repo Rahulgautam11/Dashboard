@@ -1,0 +1,34 @@
+.admin_list_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    padding: 20px;
+    gap: 30px;
+
+    .card {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        border-radius: 10px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 12px;
+
+        h1,
+        p {
+            word-break: break-all;
+        }
+
+
+        button {
+            background-color: red;
+            color: #fff;
+            font-size: 12px;
+            padding: 6px 10px;
+            width: fit-content;
+            border-radius: 6px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+    }
+}
